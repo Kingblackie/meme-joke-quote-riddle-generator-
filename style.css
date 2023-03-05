@@ -1,0 +1,97 @@
+body {
+  background-color: #f4f4f4;
+  color: orange;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border: 1px solid white;
+  border-radius: 5px;
+  max-width: 350px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+p {
+  color: rgb(41, 28, 3);
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.attribution {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 0.8rem;
+  background-color: #8097a6;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1d2326;
+  box-shadow: 1px 2px 5px 1px rgba(255, 255, 255, 0.2);
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.content {
+  width: 65%;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.content p {
+  max-width: 80%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1.5px dotted orange;
+  height: 100vh;
+}
+
+button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid orange;
+  background: transparent;
+  color: orange;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.reveal-btn {
+  border: none;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.reveal-btn:hover {
+  color: blue;
+  background-color: transparent;
+}
